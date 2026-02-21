@@ -1,9 +1,9 @@
 /* Default Design Colors */
 :root {
-    --primary: #ff3b3b;
-    --dark-bg: #1a0a0a;
+    --primary: #00ff88;
+    --dark-bg: #0a1a0f;
     --light-bg: #ffffff;
-    --secondary: #716a6a;
+    --secondary: #6a716c;
 }
 
 * {
