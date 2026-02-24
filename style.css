@@ -22,6 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden; /* Non-interactive, no scrolling */
+    perspective: 1000px; /* Enable 3D effects for GSAP */
 }
 
 .container {
@@ -35,13 +36,4 @@ h1 {
     font-weight: 700;
 }
 
-/* Subtle animation for digital signage feel */
-.fade-in {
-    animation: fadeIn ease 3s;
-    -webkit-animation: fadeIn ease 3s;
-}
-
-@keyframes fadeIn {
-    0% { opacity: 0; transform: translateY(20px); }
-    100% { opacity: 1; transform: translateY(0); }
-}
+/* No longer needed as GSAP handles animation */
